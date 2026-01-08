@@ -36,8 +36,7 @@ spec:
         image: httpd:2.4
         ports:
         - containerPort: 80
- 
-        - containerPort: 80
+        
 ---
 apiVersion: v1
 kind: Service
