@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: apache-container
-        image: httpd:latest # Specifies the container image and tag
+        image: httpd:2.4 # Specifies the container image and tag
         ports:
         - containerPort: 80 # The port the container exposes
